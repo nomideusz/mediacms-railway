@@ -1,5 +1,7 @@
 # Deploy and Host MediaCMS on Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/mediacms?utm_medium=integration&utm_source=button&utm_campaign=mediacms)
+
 [MediaCMS](https://mediacms.io/) is a modern, open-source video and media platform: upload videos, transcode them automatically to multiple resolutions with HLS adaptive streaming, organize with playlists, categories and tags, and manage users — a self-hosted alternative to hosted video platforms, built on Django and React.
 
 ## About Hosting MediaCMS
