@@ -9,4 +9,8 @@ if [ -n "${PORT:-}" ] && [ "$PORT" != "80" ]; then
   done
 fi
 
+# Seed the (possibly volume-mounted) media_files with the image's default
+# assets. -n never clobbers user uploads; cheap no-op on every later boot.
+cp -an /media_files_defaults/. /home/mediacms.io/mediacms/media_files/ 2>/dev/null || true
+
 exec ./deploy/docker/entrypoint.sh "$@"
