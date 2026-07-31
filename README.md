@@ -4,6 +4,14 @@
 
 [MediaCMS](https://mediacms.io/) is a modern, open-source video and media platform: upload videos, transcode them automatically to multiple resolutions with HLS adaptive streaming, organize with playlists, categories and tags, and manage users — a self-hosted alternative to hosted video platforms, built on Django and React.
 
+## Screenshots
+
+![MediaCMS home feed](https://raw.githubusercontent.com/nomideusz/mediacms-railway/main/images/01.png)
+
+![MediaCMS video player with chapters](https://raw.githubusercontent.com/nomideusz/mediacms-railway/main/images/02.jpg)
+
+![MediaCMS dark mode player with up-next sidebar](https://raw.githubusercontent.com/nomideusz/mediacms-railway/main/images/04.jpg)
+
 ## About Hosting MediaCMS
 
 This template runs MediaCMS as three Railway services: the main all-in-one container (web UI, API, nginx, and the celery transcoding workers sharing one volume for media files — no shared-storage juggling), PostgreSQL, and Redis as the task broker. On first boot it runs database migrations and creates your admin account from the `ADMIN_PASSWORD` variable (username `admin`). Videos transcode on CPU via ffmpeg with progressive MP4 and HLS output. Media files persist on the attached volume; scale the volume with your library.
