@@ -6,11 +6,11 @@
 
 ## Screenshots
 
-![MediaCMS home feed](https://raw.githubusercontent.com/nomideusz/mediacms-railway/main/images/01.png)
+![MediaCMS home feed](https://raw.githubusercontent.com/two-workspaces/mediacms/main/images/01.png)
 
-![MediaCMS video player with chapters](https://raw.githubusercontent.com/nomideusz/mediacms-railway/main/images/02.jpg)
+![MediaCMS video player with chapters](https://raw.githubusercontent.com/two-workspaces/mediacms/main/images/02.jpg)
 
-![MediaCMS dark mode player with up-next sidebar](https://raw.githubusercontent.com/nomideusz/mediacms-railway/main/images/04.jpg)
+![MediaCMS dark mode player with up-next sidebar](https://raw.githubusercontent.com/two-workspaces/mediacms/main/images/04.jpg)
 
 ## About Hosting MediaCMS
 
@@ -29,7 +29,7 @@ This template runs MediaCMS as three Railway services: the main all-in-one conta
 ### Deployment Dependencies
 
 - [MediaCMS documentation](https://docs.mediacms.io/)
-- [Template source on GitHub](https://github.com/nomideusz/mediacms-railway)
+- [Template source on GitHub](https://github.com/two-workspaces/mediacms)
 
 ### Implementation Details
 

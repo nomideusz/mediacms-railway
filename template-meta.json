@@ -1,0 +1,8 @@
+{
+  "id": "7c8f355b-acb4-4078-a713-cbe9c26629ec",
+  "name": "MediaCMS",
+  "description": "Self-hosted video platform: uploads, transcoding, HLS, playlists, users.",
+  "category": "CMS",
+  "image": "https://raw.githubusercontent.com/mediacms-io/mediacms/refs/heads/main/frontend/src/static/favicons/apple-touch-icon.png",
+  "published": true
+}
