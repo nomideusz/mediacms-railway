@@ -93,7 +93,7 @@
         "restartPolicyMaxRetries": 10
       },
       "source": {
-        "image": "redis:alpine"
+        "image": "redis:8-alpine"
       },
       "variables": {},
       "volumeMounts": {

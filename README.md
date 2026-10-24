@@ -24,7 +24,7 @@ This template runs MediaCMS as three Railway services: the main all-in-one conta
 
 ## Dependencies for MediaCMS Hosting
 
-- All bundled: PostgreSQL 17 and Redis are provisioned by the template
+- All bundled: PostgreSQL 17 and Redis 8 are provisioned by the template
 
 ### Deployment Dependencies
 
