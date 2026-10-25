@@ -1,4 +1,6 @@
-FROM mediacms/mediacms:latest
+# Docker Hub has no MediaCMS version tags past 7.2.0; this digest is `latest` built
+# 2026-10-20 (MediaCMS 9.3.1). Bump by copying the new `latest` digest.
+FROM mediacms/mediacms@sha256:f10737c9cd23836969680db9c5ee5aec8d2b7e09b559aa8ad93cf2460ec81a7e
 
 ENV ADMIN_USER=admin \
     ADMIN_EMAIL=admin@example.com \
